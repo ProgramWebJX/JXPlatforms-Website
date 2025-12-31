@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-white antialiased font-sans;
+  }
+}
+
+/* Custom Gradients - mimicking the reference */
+.bg-gradient-hero {
+  background: radial-gradient(circle at 50% 50%, #2e1065 0%, #0f172a 100%);
+}
+
+.text-gradient-primary {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400;
+}
