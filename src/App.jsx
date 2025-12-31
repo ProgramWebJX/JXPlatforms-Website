@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
 import {
   Globe,
@@ -16,31 +16,7 @@ import {
 import Logo from './components/ui/Logo';
 
 // --- Logo Komponenti (Stili JX bazuar në foto) ---
-const JXLogo = ({ className = "w-10 h-10" }) => (
-  <div className={`${className} relative group`}>
-    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-[0_0_15px_rgba(77,60,255,0.8)]">
-      <defs>
-        <linearGradient id="jxGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stopColor="#4D3CFF" />
-          <stop offset="100%" stopColor="#9D4DFF" />
-        </linearGradient>
-      </defs>
-      {/* Background Shape */}
-      <rect width="100" height="100" rx="24" fill="black" fillOpacity="0.3" />
-      <rect width="100" height="100" rx="24" stroke="url(#jxGradient)" strokeWidth="2" strokeOpacity="0.5" />
 
-      {/* Stylized JX */}
-      <path
-        d="M30 30H45V60C45 65 42 68 37 68H32M55 30L75 70M75 30L55 70"
-        stroke="url(#jxGradient)"
-        strokeWidth="10"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-    <div className="absolute inset-0 bg-gradient-to-br from-[#4D3CFF] to-[#9D4DFF] blur-xl opacity-20 group-hover:opacity-40 transition-opacity rounded-full"></div>
-  </div>
-);
 
 const translations = {
   en: {

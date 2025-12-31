@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import FloatingShape from './FloatingShape';
 
@@ -27,7 +26,7 @@ const Hero = () => {
                     className="top-[40%] right-[20%] w-40 h-40 md:w-80 md:h-60 bg-blue-500/10 backdrop-blur-xl border border-white/20 rounded-3xl transform rotate-12 z-0"
                     delay={1}
                     duration={9}
-                    rotate={false}
+                    ShouldRotate={false}
                 />
 
                 {/* Purple Sphere top left */}
