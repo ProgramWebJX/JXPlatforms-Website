@@ -38,7 +38,7 @@ const translations = {
     collab: 'Collaboration',
     contactUs: 'Contact Us',
     visitSite: 'Visit Website',
-    compDesc: 'JXPlatforms is a leading innovation hub dedicated to building high-performance digital ecosystems, AI-driven solutions, and educational platforms that empower the next generation of users.',
+    compDesc: 'We are an unofficial software company founded by a 14-year-old Software Architect & Engineer from Korça, Jori Xurre. We offer static websites, personalized chatbots, full SaaS platforms, and automations. We are not a real company but we hope to be one day.',
     rights: 'ALL RIGHTS RESERVED.'
   },
   sq: {
@@ -60,7 +60,7 @@ const translations = {
     collab: 'Bashkëpunim',
     contactUs: 'Na kontaktoni',
     visitSite: 'Vizito Faqen',
-    compDesc: 'JXPlatforms është një qendër inovacioni e përkushtuar në ndërtimin e ekosistemeve dixhitale me performancë të lartë, zgjidhjeve me AI dhe platformave edukative që fuqizojnë brezin e ardhshëm.',
+    compDesc: 'Ne jemi një kompani softweresh jo zyrtare e themeluar nga një Software Architect & Engineer 14 vjeçar nga Korça, Jori Xurre. Ne ofrojmë website statike, chatbot-e të personalizuar, platforma të plota SaaS dhe automatizime. Ne nuk jemi një kompani reale por shpresojmë të jemi një ditë.',
     rights: 'TË GJITHA TË DREJTAT TË REZERVUARA.'
   }
 };
@@ -193,41 +193,55 @@ const Products = ({ lang }) => {
       url: 'https://www.microchat10.com'
     },
     {
+      title: 'PaHuazime',
+      icon: <Zap />,
+      tech: 'FinTech / Platform',
+      color: 'from-[#9D4DFF] to-purple-400',
+      url: 'https://www.pahuazime.org/'
+    },
+    {
+      title: 'Gjeniu Website',
+      icon: <BookOpen />,
+      tech: 'Innovation / Web',
+      color: 'from-blue-500 to-[#4D3CFF]',
+      url: 'https://programwebjx.github.io/Gjeniu-Website---JXPlatforms/'
+    },
+  ];
+
+  const secondaryItems = [
+    {
       title: 'ComeAndVisitAlbania',
       icon: <Globe2 />,
       tech: 'Tourism / Platform',
-      color: 'from-[#9D4DFF] to-purple-400',
+      color: 'from-[#4D3CFF] to-indigo-400',
       url: 'https://programwebjx.github.io/ComeAndVisitAlbania/'
     },
     {
       title: 'VeqilharxhiTimes',
       icon: <BookOpen />,
       tech: 'Digital News',
-      color: 'from-blue-500 to-[#4D3CFF]',
+      color: 'from-purple-500 to-[#9D4DFF]',
       url: '#'
     },
-  ];
-
-  const secondaryItems = [
     {
       title: 'Rine-Katerinza Web',
       icon: <Zap />,
       tech: 'Portfolio / Web',
-      color: 'from-[#4D3CFF] to-indigo-400',
+      color: 'from-blue-600 to-[#4D3CFF]',
       url: 'https://programwebjx.github.io/Rine-Katerinza-Website--Gjuhe-Shqie-9--Shkolla-NaumVeqipharxhi/'
     },
     {
       title: 'Gjeografi Website',
       icon: <Globe />,
       tech: 'Edu / Geography',
-      color: 'from-purple-500 to-[#9D4DFF]',
+      color: 'from-[#4D3CFF] to-blue-400',
       url: 'https://programwebjx.github.io/Gjeografi-8-Website-JX-Platforms/'
     },
     {
       title: 'HistoriWebQuiz',
       icon: <History />,
       tech: 'Interactive / History',
-      color: 'from-blue-600 to-[#4D3CFF]',
+      color: 'from-[#9D4DFF] to-purple-400',
       url: 'https://programwebjx.github.io/Histori-9-Web-Quiz-JX-Platforms/'
     },
   ];
@@ -349,7 +363,7 @@ const Footer = ({ lang }) => {
 
         <div className="pt-12 border-t border-white/5 text-center">
           <p className="text-white/20 text-[11px] font-black tracking-[0.4em] uppercase">
-            © 2025 JXPLATFORMS. {t.rights}
+            © 2026 JXPLATFORMS. {t.rights}
           </p>
         </div>
       </div>
